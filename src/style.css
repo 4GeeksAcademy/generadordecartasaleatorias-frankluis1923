@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.background {
+  background: radial-gradient(
+    circle,
+    rgba(14, 126, 18, 1) 57%,
+    rgba(0, 0, 0, 1) 98%
+  );
+}
+.card-bg {
+  background-color: white;
+}
+#cardSymbolF,
+#cardSymbolH {
+  font-size: 4rem;
+}
+#cardNumber {
+  font-size: 8rem;
+}
+.footerCard {
+  rotate: 180deg;
+}
